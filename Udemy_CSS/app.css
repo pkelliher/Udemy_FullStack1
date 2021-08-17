@@ -1,5 +1,5 @@
 h2 {
-  color: teal;
+  color: rgb(92, 235, 235);
   background-color: rgb(89, 151, 0);
 }
 
@@ -10,4 +10,8 @@ button {
 
 p {
   color: olive;
+}
+
+body {
+  background-color: black;
 }
