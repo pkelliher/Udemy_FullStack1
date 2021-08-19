@@ -69,3 +69,7 @@ a:hover {
 .post button:active {
   background-color: green;
 }
+
+.post:nth-of-type(3n) {
+  background-color: orchid;
+}
