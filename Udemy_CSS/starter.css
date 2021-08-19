@@ -73,3 +73,15 @@ a:hover {
 .post:nth-of-type(3n) {
   background-color: orchid;
 }
+
+h2::first-letter {
+  font-size: 45px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: royalblue;
+}
