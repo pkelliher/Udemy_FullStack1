@@ -32,6 +32,8 @@ span {
 
 .post a {
   color: orange;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 footer a {
@@ -53,4 +55,17 @@ input[type="password"] {
 
 a[href*="google"] {
   color: magenta;
+}
+
+.post button:hover {
+  background-color: red;
+  color: mintcream;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: green;
 }
