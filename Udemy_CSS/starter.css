@@ -85,3 +85,7 @@ p::first-line {
 p::selection {
   background-color: royalblue;
 }
+
+button:hover {
+  background-color: olive;
+}
