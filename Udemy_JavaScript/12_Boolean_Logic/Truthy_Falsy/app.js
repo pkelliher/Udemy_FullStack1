@@ -1,4 +1,4 @@
-Truthy Falsy examples
+// Truthy Falsy examples
 const userInput = prompt("Enter something");
 
 if (userInput) {
