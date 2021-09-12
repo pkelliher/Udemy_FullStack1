@@ -34,6 +34,13 @@ while (input !== "quit" && input !== "q") {
       console.log(`${i}: ${todos[i]}`);
     }
     console.log("***********");
+  } else if (input === "new") {
+    const newTodo = prompt("Ok, what is the new todo?");
+    todos.push(newTodo);
+    console.log(`${newTodo} added to the list!`);
+  } elese if(input === "delete") {
+      cconst index = prompt("Ok, enter an index to delete:");
+      console.log(index);
   }
   input = prompt("What would you like to do?");
 }
