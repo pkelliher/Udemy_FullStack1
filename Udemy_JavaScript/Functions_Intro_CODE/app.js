@@ -1,4 +1,5 @@
 // Function examples
+// I am going to take my time with this piece
 
 function singSong() {
   console.log("DO");
