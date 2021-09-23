@@ -38,13 +38,13 @@ tasButton.addEventListener("click", shout);
 
 Example;
 
-const helloButton = document.querySelector('#hello');
-const goodbyeButton = document.querySelector('#goodbye');
+const helloButton = document.querySelector("#hello");
+const goodbyeButton = document.querySelector("#goodbye");
 
-helloButton.addEventListener('click', () =&gt; {
-    console.log("hello");
+helloButton.addEventListener("click", () => {
+  console.log("hello");
 });
 
-goodbyeButton.addEventListener('click', () =&gt; {
-    console.log("goodbye");
+goodbyeButton.addEventListener("click", () => {
+  console.log("goodbye");
 });
