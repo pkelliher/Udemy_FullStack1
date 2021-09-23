@@ -37,3 +37,14 @@ tasButton.addEventListener("click", twist);
 tasButton.addEventListener("click", shout);
 
 Example;
+
+const helloButton = document.querySelector('#hello');
+const goodbyeButton = document.querySelector('#goodbye');
+
+helloButton.addEventListener('click', () =&gt; {
+    console.log("hello");
+});
+
+goodbyeButton.addEventListener('click', () =&gt; {
+    console.log("goodbye");
+});
