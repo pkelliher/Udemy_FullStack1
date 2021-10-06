@@ -11,13 +11,13 @@
 //         console.log("OH NO! ERROR!", e)
 //     })
 
-
+//example of fetch
 const fetchBitcoinPrice = async () => {
-    try {
-        const res = await fetch('https://api.cryptonator.com/api/ticker/btc-usd');
-        const data = await res.json();
-        console.log(data.ticker.price)
-    } catch (e) {
-        console.log("SOMETHING WENT WRONG!!!", e)
-    }
-}
+  try {
+    const res = await fetch("https://api.cryptonator.com/api/ticker/btc-usd");
+    const data = await res.json();
+    console.log(data.ticker.price);
+  } catch (e) {
+    console.log("SOMETHING WENT WRONG!!!", e);
+  }
+};
