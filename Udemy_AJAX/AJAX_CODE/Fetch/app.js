@@ -11,7 +11,7 @@
 //         console.log("OH NO! ERROR!", e)
 //     })
 
-//example of fetch
+//example of using fetch
 const fetchBitcoinPrice = async () => {
   try {
     const res = await fetch("https://api.cryptonator.com/api/ticker/btc-usd");
