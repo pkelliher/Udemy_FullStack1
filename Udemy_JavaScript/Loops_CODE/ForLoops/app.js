@@ -18,8 +18,12 @@
 // OUR FIRST FOR LOOP
 // ======================================
 
-for (let num = 1; num <= 10; num += 1) {
-  console.log(num);
+// for (let num = 1; num <= 10; num += 1) {
+//   console.log(num);
+// }
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
 }
 
 // ======================================
