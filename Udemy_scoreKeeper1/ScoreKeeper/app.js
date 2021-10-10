@@ -1,4 +1,4 @@
-// refactored ScoreKeeper
+// refactored scoreKeeper
 const p1 = {
   score: 0,
   button: document.querySelector("#p1Button"),
