@@ -83,13 +83,121 @@ console.log(nums);
 
 // repeat("test", 4);
 
-// Function that repeats the string multiple times
-function repeat(str, numTimes) {
-  let result = "";
-  for (let i = 0; i < numTimes; i++) {
-    result += str;
-  }
-  console.log(result);
-}
+// Function that repeats the string multiple times ORDER MATTERS!!!!
+// function repeat(str, numTimes) {
+//   let result = "";
+//   for (let i = 0; i < numTimes; i++) {
+//     result += str;
+//   }
+//   console.log(result);
+// }
 
-repeat("This is a test ", 6);
+// repeat("This is a test ", 6);
+
+// function add(x, y) {
+//   console.log(x + y);
+// }
+
+// add(3, 4);
+
+// function add(x, y) {
+//   let sum = x + y;
+//   return sum;
+// }
+
+// add(4, 7);
+
+// function add(x, y) {
+//   if (typeof x !== "number" || typeof y !== "number") {
+//     return false;
+//   }
+//   return x + y;
+// }
+
+// function expression
+// const add = function (x, y) {
+//   return x + y;
+// };
+
+// console.log(add(3, 7));
+
+// calling on another function as an argument
+// function callTwice(func) {
+//   func();
+//   func();
+// }
+
+// function callTenTimes(f) {
+//   for (let i = 0; i < 10; i++) {
+//     f();
+//   }
+// }
+
+// function rollDie() {
+//   const roll = Math.floor(Math.random() * 6) + 1;
+//   console.log(roll);
+// }
+
+// callTwice(rollDie);
+
+// callTenTimes(rollDie);
+
+// function makeMysteryFunc() {
+//   const rand = Math.random();
+//   if (rand > 0.5) {
+//     return function () {
+//       console.log("Congrats, I am a good function!");
+//     };
+//   } else {
+//     return function () {
+//       alert("You have been infected");
+//     };
+//   }
+// }
+
+// Factory Function
+// function makeBetweenFunc(min, max) {
+//   return function (num) {
+//     return num >= min && num <= max;
+//   };
+// }
+
+// const isSenior = makeBetweenFunc(65, 100)
+
+// function isBetween(num) {
+//   return num >= 50 && num <= 100;
+// }
+
+// Methods adding a function  as properties on object.
+// const myMath = {
+//   PI: 3.14,
+//   square: function (num) {
+//     return num * num;
+//   },
+//   cube: function (num) {
+//     return num ** 3;
+//   },
+// };
+
+// New shorthand variation no key name or funciton key word required.
+
+// const myMath = {
+//   PI: 3.14,
+//   square(num) {
+//     return num * num;
+//   },
+//   cube(num) {
+//     return num ** 3;
+//   },
+// };
+
+// using this keyword
+
+// const cat = {
+//   name: "Charlie Kelliher",
+//   color: "grey",
+//   breed: "scottish fold",
+//   meow() {
+//     console.log(`${this.name} says hello`);
+//   },
+// };
