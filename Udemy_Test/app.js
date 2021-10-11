@@ -39,21 +39,46 @@
 //   console.log(count);
 // }
 
-let maximum = parseInt(prompt("Enter the maximum number"));
-while (!maximum) {
-  maximum = parseInt(prompt("Enter a valid number!"));
-}
+// Function with argument
 
-const targetNum = Math.floor(Math.random() * maximum) + 1;
-console.log(targetNum);
+// [1,2,3].push(4)
 
-let guess = parseInt(prompt("Enter your first guess!"));
+let nums = [1, 2, 3, 4];
 
-while (guess !== targetNum) {
-  if (guess > targetNum) {
-    guess = parseInt(prompt("Too high! Enter a new guess:"));
-  } else {
-    guess = parseInt(prompt("Too low! Enter a new guess!"));
+nums.push(5, 6, 7);
+
+console.log(nums);
+
+nums.pop(7);
+
+console.log(nums);
+
+nums.unshift(-1, 0);
+
+console.log(nums);
+
+nums.shift(-1);
+
+console.log(nums);
+
+// Function with argument
+// function greet(firstName) {
+//   console.log(`Hi, ${firstName}!`);
+// }
+
+// greet("Patrick");
+
+// function greet(firstName, lastName) {
+//   console.log(`Hey there, ${firstName} ${lastName[0]}!`);
+// }
+
+// greet("Patrick", "Kelliher");
+
+// Function with multiple arguments
+function repeat(str, numTimes) {
+  for (let i = 0; i < numTimes; i++) {
+    console.log("Hi");
   }
 }
-console.log("YOU GOT IT!");
+
+repeat("test", 4);
