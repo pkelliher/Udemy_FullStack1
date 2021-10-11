@@ -75,10 +75,21 @@ console.log(nums);
 // greet("Patrick", "Kelliher");
 
 // Function with multiple arguments
+// function repeat(str, numTimes) {
+//   for (let i = 0; i < numTimes; i++) {
+//     console.log("Hi");
+//   }
+// }
+
+// repeat("test", 4);
+
+// Function that repeats the string multiple times
 function repeat(str, numTimes) {
+  let result = "";
   for (let i = 0; i < numTimes; i++) {
-    console.log("Hi");
+    result += str;
   }
+  console.log(result);
 }
 
-repeat("test", 4);
+repeat("This is a test ", 6);
