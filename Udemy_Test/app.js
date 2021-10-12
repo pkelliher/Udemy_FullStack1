@@ -43,23 +43,23 @@
 
 // [1,2,3].push(4)
 
-let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
-nums.push(5, 6, 7);
+// nums.push(5, 6, 7);
 
-console.log(nums);
+// console.log(nums);
 
-nums.pop(7);
+// nums.pop(7);
 
-console.log(nums);
+// console.log(nums);
 
-nums.unshift(-1, 0);
+// nums.unshift(-1, 0);
 
-console.log(nums);
+// console.log(nums);
 
-nums.shift(-1);
+// nums.shift(-1);
 
-console.log(nums);
+// console.log(nums);
 
 // Function with argument
 // function greet(firstName) {
@@ -201,3 +201,272 @@ console.log(nums);
 //     console.log(`${this.name} says hello`);
 //   },
 // };
+
+// Count the Number of Vowels Using a Loop
+
+// const vowels = ["a", "e", "i", "o", "u"];
+
+// function countVowel(str) {
+//   let count = 0;
+
+//   for (let letter of str.toLowerCase()) {
+//     if (vowels.includes(letter)) {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
+
+// const string = prompt("Enter a string: ");
+
+// const result = countVowel(string);
+
+// console.log(result);
+
+// Try/catch
+
+// try {
+//   hello.toUpperCase();
+// } catch {
+//   console.log("Error!!!!");
+// }
+
+// Example:
+// function yell(msg) {
+//   try {
+//     console.log(msg.toUpperCase().repeat(3));
+//   } catch (e) {
+//     console.log("Please pass a string");
+//   }
+// }
+
+// For each examples
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// numbers.forEach(function (el) {
+//   if (el % 2 === 0) {
+//     console.log(el);
+//   }
+// });
+
+// For of example
+// for (let el of numbers) {
+//   console.log(el);
+// }
+
+// const movies = [
+//   {
+//     title: "Amadeus",
+//     score: 99,
+//   },
+//   {
+//     title: "Stand By Me",
+//     score: 85,
+//   },
+//   {
+//     title: "Parasite",
+//     score: 95,
+//   },
+//   {
+//     title: "Alien",
+//     score: 90,
+//   },
+// ];
+
+// movies.forEach(function (movie) {
+//   console.log(`${movie.title} - ${movie.score}/100`);
+// });
+
+// Map examples
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// const doubles = numbers.map(function (num) {
+//   return num * 2;
+// });
+
+// const movies = [
+//   {
+//     title: "Amadeus",
+//     score: 99,
+//   },
+//   {
+//     title: "Stand By Me",
+//     score: 85,
+//   },
+//   {
+//     title: "Parasite",
+//     score: 95,
+//   },
+//   {
+//     title: "Alien",
+//     score: 90,
+//   },
+// ];
+
+// const titles = movies.map(function (movie) {
+//   return movie.title.toUpperCase();
+// });
+
+// const fullNames = [
+//   {
+//     first: "Albus",
+//     last: "Dumbledore",
+//   },
+//   {
+//     first: "Harry",
+//     last: "Potter",
+//   },
+//   {
+//     first: "Hermione",
+//     last: "Granger",
+//   },
+//   {
+//     first: "Ron",
+//     last: "Weasley",
+//   },
+//   {
+//     first: "Rubeus",
+//     last: "Hagrid",
+//   },
+//   {
+//     first: "Minerva",
+//     last: "McGonagall",
+//   },
+//   {
+//     first: "Severus",
+//     last: "Snape",
+//   },
+// ];
+
+// // Write your code here
+// const firstNames = fullNames.map(function (name) {
+//   return name.first;
+// });
+
+// Function expression example:
+
+// const add = function(x,y) {
+//     return x + y;
+// }
+
+// Regular function:
+
+// function add(x,y) {
+//     return x+y;
+// }
+
+// Arrow function example:
+// const add = (x, y) => {
+//   return x + y;
+// };
+
+// const square = (x) => {
+//   return x * x;
+// };
+
+// Or without parenthesis, only works with a single parameter:
+
+// const square = (x) => {
+//   return x * x;
+// };
+
+// const rollDie = () => {
+//   return Math.floor(Math.random() * 6) + 1;
+// };
+
+// or with the return omitted:
+
+// const rollDie = () => Math.floor(Math.random() * 6) + 1;
+
+// const add = (a, b) => a + b;
+
+// Arrow functions continued:
+// const movies = [
+//   {
+//     title: "Amadeus",
+//     score: 99,
+//   },
+//   {
+//     title: "Stand By Me",
+//     score: 85,
+//   },
+//   {
+//     title: "Parasite",
+//     score: 95,
+//   },
+//   {
+//     title: "Alien",
+//     score: 90,
+//   },
+// ];
+
+// // const newMovies = movies.map(function (movie) {
+// //   return `${movie.title} - ${movie.score / 10}`;
+// // });
+
+// const newMovies = movies.map((movie) => `${movie.title} - ${movie.score / 10}`);
+
+// setTimeout setInterval examples
+
+// Example with arrow function:
+// setTimeout(() => {
+//   console.log("hello");
+// }, 3000);
+
+// // Example with traditional function:
+// setTimeout(function () {
+//   console.log("Test2");
+// }, 5000);
+
+// SetInterval example:
+
+// const id = setInterval(() => {
+//   console.log(Math.random());
+// }, 2000);
+
+// You can call on clearInterval(id) to stop the setInterval.
+
+// Filter method example:
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// numbers.filter((n) => {
+//   return n === 4;
+// });
+
+// numbers.filter((n) => {
+//   return n < 4;
+// });
+
+const movies = [
+  {
+    title: "Amadeus",
+    score: 99,
+  },
+  {
+    title: "Stand By Me",
+    score: 85,
+  },
+  {
+    title: "Parasite",
+    score: 95,
+  },
+  {
+    title: "Alien",
+    score: 90,
+  },
+];
+
+// const goodMovies = movies.filter((movie) => {
+//   return movie.score > 94;
+// });
+
+const goodMovies = movies.filter((m) => m.score > 94);
+const badMovies = movies.filter((m) => m.score < 90);
+
+// chaining map on to the filter to get just the title:
+
+movies.filter((m) => m.score > 94).map((m) => m.title);
