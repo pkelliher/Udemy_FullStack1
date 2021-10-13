@@ -441,32 +441,34 @@
 //   return n < 4;
 // });
 
-const movies = [
-  {
-    title: "Amadeus",
-    score: 99,
-  },
-  {
-    title: "Stand By Me",
-    score: 85,
-  },
-  {
-    title: "Parasite",
-    score: 95,
-  },
-  {
-    title: "Alien",
-    score: 90,
-  },
-];
+// const movies = [
+//   {
+//     title: "Amadeus",
+//     score: 99,
+//   },
+//   {
+//     title: "Stand By Me",
+//     score: 85,
+//   },
+//   {
+//     title: "Parasite",
+//     score: 95,
+//   },
+//   {
+//     title: "Alien",
+//     score: 90,
+//   },
+// ];
 
-// const goodMovies = movies.filter((movie) => {
-//   return movie.score > 94;
-// });
+// // const goodMovies = movies.filter((movie) => {
+// //   return movie.score > 94;
+// // });
 
-const goodMovies = movies.filter((m) => m.score > 94);
-const badMovies = movies.filter((m) => m.score < 90);
+// const goodMovies = movies.filter((m) => m.score > 94);
+// const badMovies = movies.filter((m) => m.score < 90);
 
-// chaining map on to the filter to get just the title:
+// // chaining map on to the filter to get just the title:
 
-movies.filter((m) => m.score > 94).map((m) => m.title);
+// movies.filter((m) => m.score > 94).map((m) => m.title);
+
+// Default Params:
