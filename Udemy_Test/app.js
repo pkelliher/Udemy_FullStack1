@@ -529,6 +529,71 @@
 
 // Another exmpal with a deault param for msg
 
-function greet(person, msg = "Hey there") {
-  console.log(`${msg}, ${person}!`);
-}
+// function greet(person, msg = "Hey there") {
+//   console.log(`${msg}, ${person}!`);
+// }
+
+// function bubbleSort(array) {
+//   var done = false;
+//   while (!done) {
+//     done = true;
+//     for (var i = 1; i < array.length; i += 1) {
+//       if (array[i - 1] > array[i]) {
+//         done = false;
+//         var tmp = array[i - 1];
+//         array[i - 1] = array[i];
+//         array[i] = tmp;
+//       }
+//     }
+//   }
+
+//   return array;
+// }
+
+// var numbers = [12, 10, 15, 11, 14, 13, 16];
+// bubbleSort(numbers);
+// console.log(numbers);
+
+// Variation on sort:
+// const nums = [67, 43, 5, 2, 89, 22, 4];
+
+// function sortNums(numArr) {
+//   let isSorted = false;
+//   while (!isSorted) {
+//     isSorted = true;
+//     for (let i = 1; i < numArr.length; i += 1) {
+//       if (numArr[i - 1] > numArr[i]) {
+//         isSorted = false;
+//         let tempArr = numArr[i - 1];
+//         numArr[i - 1] = numArr[i];
+//         numArr[i] = tempArr;
+//       }
+//     }
+//   }
+
+//   return numArr;
+// }
+
+// const nums = [67, 43, 5, 2, 89, 22, 4];
+// sortNums(nums);
+// console.log(nums);
+
+// destructuring objects:
+
+const user = {
+  email: "rehillek76@gmail.com",
+  password: "asdfasdf",
+  firstName: "Patrick",
+  lastName: "Kelliher",
+  born: 1976,
+  died: "Still alive",
+  bio: "Patrick was born in the SF Bay area...",
+  city: "San Francisco",
+  state: "California",
+};
+
+// const firstName = user.firstName;
+// const lastName = user.lastName;
+// const email = user.email;
+
+const { email, firstName, lastName, city, bio } = user;
