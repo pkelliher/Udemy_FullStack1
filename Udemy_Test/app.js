@@ -471,4 +471,64 @@
 
 // movies.filter((m) => m.score > 94).map((m) => m.title);
 
-// Default Params:
+// Sorting without sort() method:
+
+// function bubbleSort(array) {
+//   var done = false;
+//   while (!done) {
+//     done = true;
+//     for (var i = 1; i < array.length; i += 1) {
+//       if (array[i - 1] > array[i]) {
+//         done = false;
+//         var tmp = array[i - 1];
+//         array[i - 1] = array[i];
+//         array[i] = tmp;
+//       }
+//     }
+//   }
+
+//   return array;
+// }
+
+// var numbers = [12, 10, 15, 11, 14, 13, 16];
+// bubbleSort(numbers);
+// console.log(numbers);
+
+// Sort with sort() method:
+
+// const unsorted = ['d', 'd', 'h', 'r', 'v', 'z', 'f', 'c', 'g'];
+// const sorted = unsorted.sort();
+
+// console.log(sorted);
+// //["c", "d", "d", "f", "g", "h", "r", "v", "z"]
+
+// const unsortedNums = [45, 56, 3, 3, 4, 6, 7, 45, 1];
+// const sortedNums = unsortedNums.sort((a, b) => {
+// 	return a - b;
+// });
+
+// console.log(sortedNums);
+// //[1, 3, 3, 4, 6, 7, 45, 45, 56]
+
+// Without Default Params function params:
+// function rollDie(numSides) {
+//   return Math.floor(Math.random() * numSides) + 1;
+// }
+
+// // With default param function, using 6 as the default.
+
+// function rollDie(numSides = 6) {
+//   return Math.floor(Math.random() * numSides) + 1;
+// }
+
+// Antoher example without default params"
+
+// function greet(msg, person) {
+//   console.log(`${msg}, ${person}!`);
+// }
+
+// Another exmpal with a deault param for msg
+
+function greet(person, msg = "Hey there") {
+  console.log(`${msg}, ${person}!`);
+}
