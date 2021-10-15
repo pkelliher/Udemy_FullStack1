@@ -578,22 +578,45 @@
 // sortNums(nums);
 // console.log(nums);
 
-// destructuring objects:
+// Destructuring objects:
 
-const user = {
-  email: "rehillek76@gmail.com",
-  password: "asdfasdf",
-  firstName: "Patrick",
-  lastName: "Kelliher",
-  born: 1976,
-  died: "Still alive",
-  bio: "Patrick was born in the SF Bay area...",
-  city: "San Francisco",
-  state: "California",
-};
+// const user = {
+//   email: "rehillek76@gmail.com",
+//   password: "asdfasdf",
+//   firstName: "Patrick",
+//   lastName: "Kelliher",
+//   born: 1976,
+//   died: "Still alive",
+//   bio: "Patrick was born in the SF Bay area...",
+//   city: "San Francisco",
+//   state: "California",
+// };
 
 // const firstName = user.firstName;
 // const lastName = user.lastName;
 // const email = user.email;
 
-const { email, firstName, lastName, city, bio } = user;
+// Multiple keys stored as var:
+// const { email, firstName, lastName, city, bio } = user;
+
+// Renaming var name:
+// const { born: birthYear } = user;
+
+// ----------
+
+// function frontDoorPassword(responses) {
+//   return responses.charAt(0).toUpperCase() + responses.toLowerCase().slice(1);
+// }
+
+// responses.charAt(0).toUpperCase() +
+
+// const CODE_WORK = [
+//   "Compilers intensily bestow",
+//   "On commencing without ego",
+//   "Different processes ajar",
+//   "Exit with zero quick",
+// ];
+
+function backDoorPassword(responses) {
+  return responses.charAt(responses.length - 1);
+}
