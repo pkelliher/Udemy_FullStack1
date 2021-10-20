@@ -38,3 +38,5 @@ for (let subreddit of subreddits) {
 // for (let char of "hello world") {
 //     console.log(char)
 // }
+
+// working on solution still
