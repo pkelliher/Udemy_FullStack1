@@ -1,3 +1,5 @@
+// I will review this later
+
 const input = `Lead Chef, Chipotle, Denver, CO, 10, 15
 Stunt Double, Equity, Los Angeles, CA, 15, 25
 Manager of Fun, IBM, Albany, NY, 30, 40
