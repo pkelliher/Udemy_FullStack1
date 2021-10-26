@@ -1,4 +1,4 @@
-// Test to complete
+// This is an example used in the coding test
 
 const input = `Lead Chef, Chipotle, Denver, CO, 10, 15
 Stunt Double, Equity, Los Angeles, CA, 15, 25
