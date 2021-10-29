@@ -720,3 +720,8 @@
 const position = 2;
 const newCard = 6;
 setItem([1, 2, 4, 1], position, newCard);
+
+const stack = [1, 2, 3];
+const position = 0;
+const replacement = 7;
+const expected = [7, 2, 3];
