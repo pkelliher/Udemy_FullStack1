@@ -725,3 +725,5 @@ const stack = [1, 2, 3];
 const position = 0;
 const replacement = 7;
 const expected = [7, 2, 3];
+
+// I will test this more tomorrow
