@@ -726,4 +726,4 @@ const position = 0;
 const replacement = 7;
 const expected = [7, 2, 3];
 
-// I will test this more tomorrow
+// Will workd on excersism JS course to determine the cause of sleight of hand issue
