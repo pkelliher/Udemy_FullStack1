@@ -66,3 +66,5 @@ printOpportunity(allOpp);
 //const printOpportunity = (opp) => {}
 
 // I will test this this week
+
+// Continue testing JS in Exercism
