@@ -68,3 +68,4 @@ printOpportunity(allOpp);
 // I will test this this week
 
 // Continue testing JS in Exercism
+// Working on Array Exercise
