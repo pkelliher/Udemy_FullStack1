@@ -69,3 +69,8 @@ printOpportunity(allOpp);
 
 // Continue testing JS in Exercism
 // Working on Array Exercise
+
+
+export function removeItemFromTop(cards) {
+  cards.pop()
+return cards
