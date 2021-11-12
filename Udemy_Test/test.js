@@ -74,3 +74,5 @@ printOpportunity(allOpp);
 export function removeItemFromTop(cards) {
   cards.pop()
 return cards
+
+// Completed arrays exercise moving on to conditionals exersize.
