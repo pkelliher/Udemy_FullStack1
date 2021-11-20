@@ -77,3 +77,5 @@ printOpportunity(allOpp);
 // Completed arrays exercise moving on to conditionals exersize.
 
 // Still working on Excecism exercises.
+
+// stuck on exercism test
