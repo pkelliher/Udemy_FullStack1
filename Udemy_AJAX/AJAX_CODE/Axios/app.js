@@ -20,6 +20,8 @@
 //     })
 
 //Axios example: (PK)
+
+// additional example:
 const fetchBitcoinPrice = async () => {
   try {
     const res = await axios.get(
